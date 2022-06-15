@@ -8,13 +8,11 @@ public class PalindromeNumber {
 			int number = s.nextInt();
 			int input = number;
 			int remainder = 0;
-			int quotient = 0;
 			int result = 0;
 			while(input>0){
 				remainder = input % 10;
-				quotient = input / 10;
 				result = (result*10)+remainder;
-				input = quotient;
+				input = input / 10;
 				
 			}
 			if(number==result){
