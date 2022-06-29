@@ -6,7 +6,7 @@ import java.util.Map;
 public class InterPrep {
 
 	public static void main(String[] args) {
-		String s = "Java";
+		String s = "selenium";
 		Map<Character,Integer> mp = new LinkedHashMap<Character,Integer>();
 		int count = 1 ;
 		char[] c = s.toCharArray();
